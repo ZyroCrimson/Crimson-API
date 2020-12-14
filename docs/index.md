@@ -13,7 +13,7 @@ An example of what you can use the module for
 local api = require(0000).begin() -- require the module from the id and call the "begin" function to start it.
 local players = game:GetService("Players")
 
-player.PlayerAdded:Connect(function(plr)
+players.PlayerAdded:Connect(function(plr)
    local char = plr.Character or plr.CharacterAdded:Wait()
 
    -- make the player's avatar play an animation
