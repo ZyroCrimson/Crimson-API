@@ -6,8 +6,8 @@ Get is a method used to get services from the ```API``` table.
 ### Parameters
 
 | Parameters | Type | Default | Description |
-|---------|------------|-------------|---------|--------|
-| service | string |  | Returns a service from the ```API``` table |
+|---------|------------|-------------|---------|
+| service | string | nil | Returns a service from the ```API``` table |
 
 ### Example Code
 
