@@ -9,6 +9,12 @@ Get is a method used to get services from the ```API``` table.
 |---------|------------|-------------|---------|
 | service | string | nil | Returns a service from the ```API``` table |
 
+### Return
+
+| Type | Description |
+|------|-------------|
+|table | Returns the service |
+
 ### Example Code
 
 ```lua
