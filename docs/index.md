@@ -35,6 +35,6 @@ player.PlayerAdded:Connect(function(plr)
    local char = plr.Character or plr.CharacterAdded:Wait()
 
    -- make the player's avatar play an animation
-   local track = api:Get("Animator"):LoadAnimation(character, "rbxassetid://")
+   local track = api:Get("Animator"):LoadAnimation(char, "rbxassetid://")
 end)
 ```
