@@ -4,7 +4,7 @@
 ## Get
 
 Get is a method used to get services from the ```API``` table.
-> Services can also be indexed by API.<service>
+> Services can also be indexed by API.\<service>
 
 ### Example Code
 
