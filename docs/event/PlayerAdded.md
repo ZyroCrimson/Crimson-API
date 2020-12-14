@@ -6,7 +6,7 @@ Fires when a player is added to the game.
 ### Parameters
 | Name | Type | Default | Description |
 |------|-------|--------|-------------|
-| player | Player | | The ```Player``` that joined |
+| player | Player | nil | The ```Player``` that joined |
 
 ### Example Code
 
